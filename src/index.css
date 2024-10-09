@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.headingText {
+  margin: 10px 0;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+}
+
+.headingText .whiteBgBtnCustom {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 40px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%275%27 height=%278%27 viewBox=%270 0 5 8%27 fill=%27none%27%3E%3Cpath d=%27M4.15043 4.35355C4.34569 4.15829 4.34569 3.84171 4.15043 3.64645L0.968447 0.464467C0.773185 0.269205 0.456602 0.269205 0.26134 0.464467C0.066078 0.659729 0.0660782 0.976312 0.26134 1.17157L3.08977 4L0.261342 6.82843C0.0660798 7.02369 0.0660798 7.34027 0.261342 7.53553C0.456604 7.7308 0.773187 7.7308 0.968449 7.53553L4.15043 4.35355ZM3.20313 4.5L3.79688 4.5L3.79687 3.5L3.20312 3.5L3.20313 4.5Z%27 fill=%27black%27/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center right 22px;
+  background-size: 6px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: 0;
+  box-shadow: none;
+  margin-left: 10px;
+}
+
+.fromWalletAddress,
+.toWalletAddress {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.icon {
+  width: 16px; /* Adjust the size as needed */
+  height: 16px;
+  margin-right: 4px;
+}

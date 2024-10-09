@@ -1,0 +1,11 @@
+#confirmationModal .modal-header {
+  display: block;
+}
+
+#confirmationModal .modal-body p {
+  margin: 0;
+}
+
+#confirmationModal .modal-footer {
+  justify-content: space-between;
+}

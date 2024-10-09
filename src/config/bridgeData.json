@@ -1,0 +1,177 @@
+{
+  "chains": [
+    {
+      "destinationNetwork": 0,
+      "chainID": 1,
+      "chainName": "Eth",
+      "defaultTokenSymbol": "ETH",
+      "imageUrl": "/assets/bridgeIcons/EthIcon.png",
+      "contractAddresses": "0x2a3DD3EB832aF982ec71669E178424b10Dca2EDe",
+      "primaryColor": "#D4D4D4"
+    },
+    {
+      "destinationNetwork": 7,
+      "chainID": 994873017,
+      "chainName": "Prism",
+      "defaultTokenSymbol": "LUMIA",
+      "imageUrl": "/assets/bridgeIcons/LUMIA-prism.png",
+      "contractAddresses": "0x2a3DD3EB832aF982ec71669E178424b10Dca2EDe",
+      "primaryColor": "#232040"
+    }
+  ],
+  "tokens": [
+    {
+      "tokenName": "Lumia Token",
+      "tokenSymbol": "LUMIA",
+      "tokenURL": "/assets/bridgeIcons/LUMIA-prism.png",
+      "tokenAddressEth": "0xD9343a049D5DBd89CD19DC6BcA8c48fB3a0a42a7",
+      "tokenAddressPrism": "0x0000000000000000000000000000000000000000",
+      "tokenDecimals": 18,
+      "primaryColor": "#232040"
+    },
+    {
+      "tokenName": "Ether",
+      "tokenSymbol": "WETH",
+      "tokenURL": "/assets/bridgeIcons/EthIcon.png",
+      "tokenAddressEth": "0x0000000000000000000000000000000000000000",
+      "tokenAddressPrism": "0x5A77f1443D16ee5761d310e38b62f77f726bC71c",
+      "tokenDecimals": 18,
+      "primaryColor": "#D4D4D4"
+    },
+    {
+      "tokenName": "Matic Token",
+      "tokenSymbol": "MATIC",
+      "tokenURL": "/assets/bridgeIcons/polygon-matic.png",
+      "tokenAddressEth": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+      "tokenAddressPrism": "0xa2036f0538221a77A3937F1379699f44945018d0",
+      "tokenDecimals": 18,
+      "primaryColor": "#9032D2"
+    },
+    {
+      "tokenName": "Wrapped BTC",
+      "tokenSymbol": "WBTC",
+      "tokenURL": "/assets/bridgeIcons/wrapped-btc.png",
+      "tokenAddressEth": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "tokenAddressPrism": "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1",
+      "tokenDecimals": 8,
+      "primaryColor": "#F09748"
+    },
+    {
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenURL": "/assets/bridgeIcons/tetherUsd.png",
+      "tokenAddressEth": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "tokenAddressPrism": "0x1E4a5963aBFD975d8c9021ce480b42188849D41d",
+      "tokenDecimals": 6,
+      "primaryColor": "#26A17B"
+    },
+    {
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenURL": "/assets/bridgeIcons/usd-coin.png",
+      "tokenAddressEth": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "tokenAddressPrism": "0xA8CE8aee21bC2A48a5EF670afCc9274C7bbbC035",
+      "tokenDecimals": 6,
+      "primaryColor": "#508ED4"
+    },
+    {
+      "tokenName": "Dai Stablecoin",
+      "tokenSymbol": "DIA",
+      "tokenURL": "/assets/bridgeIcons/dai-token.png",
+      "tokenAddressEth": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "tokenAddressPrism": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4",
+      "tokenDecimals": 18,
+      "primaryColor": "#FBC34B"
+    },
+    {
+      "tokenName": "ChainLink Token",
+      "tokenSymbol": "LINK",
+      "tokenURL": "/assets/bridgeIcons/chainLink.png",
+      "tokenAddressEth": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "tokenAddressPrism": "0x4B16e4752711A7ABEc32799C976F3CeFc0111f2B",
+      "tokenDecimals": 18,
+      "primaryColor": "#335DD2"
+    },
+    {
+      "tokenName": "Curve DAO Token",
+      "tokenSymbol": "CRV",
+      "tokenURL": "/assets/bridgeIcons/curveDao.png",
+      "tokenAddressEth": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+      "tokenAddressPrism": "0x3d5320821BfCa19fb0B5428F2c79d63bd5246f89",
+      "tokenDecimals": 18,
+      "primaryColor": "#D91B07"
+    },
+    {
+      "tokenName": "Balancer",
+      "tokenSymbol": "BAL",
+      "tokenURL": "/assets/bridgeIcons/balancer.png",
+      "tokenAddressEth": "0xba100000625a3754423978a60c9317c58a424e3D",
+      "tokenAddressPrism": "0x120eF59b80774F02211563834d8E3b72cb1649d6",
+      "tokenDecimals": 18,
+      "primaryColor": "#000000"
+    },
+    {
+      "tokenName": "LUSD Stablecoin",
+      "tokenSymbol": "LUSD",
+      "tokenURL": "/assets/bridgeIcons/lusdStableCoin.png",
+      "tokenAddressEth": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+      "tokenAddressPrism": "0x01E9A866c361eAd20Ab4e838287DD464dc67A50e",
+      "tokenDecimals": 18,
+      "primaryColor": "#2EB6EA"
+    },
+    {
+      "tokenName": "Wrapped liquid staked Ether 2.0",
+      "tokenSymbol": "wstETH",
+      "tokenURL": "/assets/bridgeIcons/Wrapped-liquid-staked-Ether-2.0.svg",
+      "tokenAddressEth": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+      "tokenAddressPrism": "0x5D8cfF95D7A57c0BF50B30b43c7CC0D52825D4a9",
+      "tokenDecimals": 18,
+      "primaryColor": "#00A3FF"
+    },
+    {
+      "tokenName": "Staked MATIC",
+      "tokenSymbol": "stMATIC",
+      "tokenURL": "/assets/bridgeIcons/polygon-matic.png",
+      "tokenAddressEth": "0x9ee91f9f426fa633d227f7a9b000e28b9dfd8599",
+      "tokenAddressPrism": "0x83b874c1e09D316059d929da402dcB1A98e92082",
+      "tokenDecimals": 18,
+      "primaryColor": "#9032D2"
+    },
+    {
+      "tokenName": "Coinbase Wrapped Staked ETH",
+      "tokenSymbol": "cbETH",
+      "tokenURL": "/assets/bridgeIcons/coinBaseWrappedEth.png",
+      "tokenAddressEth": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+      "tokenAddressPrism": "0x1ba37FA8CDB8FFD4F2E04A946D81289B74de786b",
+      "tokenDecimals": 18,
+      "primaryColor": "#0052FF"
+    },
+    {
+      "tokenName": "Liquid Staking Matic",
+      "tokenSymbol": "MaticX",
+      "tokenURL": "/assets/bridgeIcons/lidoStaticMatic.png",
+      "tokenAddressEth": "0xf03A7Eb46d01d9EcAA104558C732Cf82f6B6B645",
+      "tokenAddressPrism": "0xf9eD88937B2D82707d0eabd8C3D9Aa4870b714D3",
+      "tokenDecimals": 18,
+      "primaryColor": "#45CAFF"
+    },
+    {
+      "tokenName": "Aave Token",
+      "tokenSymbol": "AAVE",
+      "tokenURL": "/assets/bridgeIcons/aaveToken.png",
+      "tokenAddressEth": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "tokenAddressPrism": "0x68791CFE079814c46e0E25C19Bcc5BFC71A744f7",
+      "tokenDecimals": 18,
+      "primaryColor": "#9391F7"
+    },
+    {
+      "tokenName": "Lido DAO Token",
+      "tokenSymbol": "LDO",
+      "tokenURL": "/assets/bridgeIcons/lidoDaoToken.png",
+      "tokenAddressEth": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+      "tokenAddressPrism": "0x7e2feEa957b7D1606335e339754F4e52b452B792",
+      "tokenDecimals": 18,
+      "primaryColor": "#EA9996"
+    }
+  ]
+}
